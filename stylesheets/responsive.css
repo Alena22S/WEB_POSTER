@@ -1,0 +1,401 @@
+
+
+/* blocks and texts for max-1366 */
+
+@media screen and (max-width: 1366px) {
+
+  
+  .block1 {
+    width: 23.8%;
+  }
+
+  .block2 {
+    width: 11.805%;
+
+  }
+
+  .block5 {
+    width: 12.4%;
+  }
+
+  .block6 {
+    width: 8.61%;
+  } 
+
+  .block15 {
+    width: 19.2%;
+  } 
+
+  .block16 {
+    width: 19.2%;
+  } 
+
+  .block21 {
+    width: 12.5%;
+  } 
+
+  
+  /* texts... */
+
+
+  /* .text4, .text5, .text14, .text15 {
+    position: absolute;
+    left:-1.3%;
+  }
+
+  .text6, .text7, .text20, .text21 {
+    position: absolute;
+    left:-0.9%;
+  }
+
+  .text8, .text9, .text12, .text16 {
+    position: absolute;
+    left:-0.2%;
+  }
+
+  .text13, .text23, .text24 {
+    position: absolute;
+    left:1%;
+  }
+
+
+  .text10, .text11 {
+    position: absolute;
+    left:1.2%;
+  }
+
+  .text, .text2, .text3, .text18, .text19 {
+    position: absolute;
+    left:-1.8%;
+  }
+
+  .text17 {
+    position: absolute;
+    left:-0.2%;
+  }
+
+  .text22 {
+    position: absolute;
+    left:-0.8%;
+  } */
+
+
+}
+
+/* texts for max-1280 */
+
+@media screen and (max-width: 1280px) {
+
+  p {
+    font-size: 16px;
+    left: 0.5%;
+  }
+
+  .text4, .text5, .text14, .text15 {
+    position: absolute;
+    left:-1%;
+    line-height: 21px;
+  }
+
+  .text6, .text7, .text20, .text21 {
+    position: absolute;
+    left:-0.5%;
+    line-height: 21px;
+  }
+
+  .text8, .text9, .text12, .text16 {
+    position: absolute;
+    left:-1.2%;
+    line-height: 21px;
+  }
+
+  .text13, .text23, .text24 {
+    position: absolute;
+    left:-1.5%;
+    line-height: 21px;
+  }
+
+
+  .text10, .text11 {
+    position: absolute;
+    left:-1.5%;
+    line-height: 21px;
+  }
+
+  .text, .text2, .text3, .text18, .text19 {
+    position: absolute;
+    left:-1.8%;
+    line-height: 21px;
+  }
+
+  .text17 {
+    position: absolute;
+    left:-1.8%;
+    line-height: 21px;
+  }
+
+  .text22 {
+    position: absolute;
+    left:-1.9%;
+    line-height: 21px;
+  }
+
+}
+
+
+/* display none for basic content */
+
+@media screen and (max-width: 1024px) {
+
+  .images_container {
+    display: none;
+  }
+
+  .texts {
+    display: none;
+  }
+
+  .blocks {
+    display: none;
+  }
+
+}
+
+/* for ipad landscape */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+ .land {
+   display: block;
+ }
+}
+
+@media (min-width: 1025px) and (max-width: 1680px) {
+  .land {
+    display: none;
+  }
+ }
+
+@media (max-width: 769px) {
+
+  .land {
+    display: none;
+  }
+}
+
+/* for ipad portrait */
+
+
+@media (min-width: 475px) and (max-width: 768px) {
+
+  .ipad {
+    display: block;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1680px) {
+  .ipad {
+    display: none;
+  }
+ }
+
+ @media (max-width: 476px) {
+
+  .ipad {
+    display: none;
+  }
+}
+
+
+/* for iphone */
+
+@media (min-width: 320px) and (max-width: 476px) {
+
+  .iphone {
+    display: block;
+  }
+}
+
+@media (min-width: 477px) and (max-width: 1680px) {
+
+  .iphone {
+    display: none;
+  }
+}
+
+/* for 1680 */
+
+@media screen and (min-width: 1679px) {
+
+  .all {
+    transform: scale(1.17);
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+  
+  /* .texts {
+   padding-right:40%;
+  }
+
+  .text10, .text11 {
+    margin-left: 89.5%;
+  }
+
+  .text23, .text24, .text13, {
+    
+  }
+
+  .text17 {
+    margin-left: 68.7%;
+  } */
+}
+
+/* @media screen and (min-width: 1441px) {
+  
+  p {
+    font-size: 18px;
+    left: 0.5%;
+    line-height: 30px;
+  }
+  
+  .block1 {
+    width: 23.8%;
+  }
+
+  .block2 {
+    width: 11.805%;
+
+  }
+
+  .block5 {
+    width: 12.4%;
+  }
+
+  .block6 {
+    width: 8.61%;
+  } 
+
+  .block15 {
+    width: 19.2%;
+  } 
+
+  .block16 {
+    width: 19.2%;
+  } 
+
+  .block21 {
+    width: 12.5%;
+  } .text4, .text5, .text14, .text15 {
+    position: absolute;
+    left:-1.3%;
+  }
+
+
+
+  .text6, .text7, .text20, .text21 {
+    position: absolute;
+    left:-1.5%;
+    line-height: 23px;
+  }
+
+  .text8, .text9, .text12, .text16 {
+    position: absolute;
+    left:-0.6%;
+    line-height: 23px;
+
+  }
+
+  .text13, .text23, .text24 {
+    position: absolute;
+    left:0.5%;
+    line-height: 23px;
+  }
+
+  .text10, .text11 {
+    position: absolute;
+    right:10%;
+    line-height: 23px;
+  }
+
+  .text, .text2, .text3, .text18, .text19 {
+    position: absolute;
+    left:-1.8%;
+    line-height: 23px;
+  }
+
+  .text17 {
+    position: absolute;
+    left:-0.7%;
+    line-height: 23px;
+  }
+
+  .text22 {
+    position: absolute;
+    left:-1%;
+    line-height: 23px;
+  }
+
+
+
+  
+} */
+
+
+
+@media (min-width: 1441px) and (max-width: 1685px) {
+
+  p {
+    font-size: 18px;
+    
+  }
+
+  .text4, .text5, .text14, .text15 {
+    position: absolute;
+    left:-2%;
+    line-height: 23px;
+  }
+
+  .text6, .text7, .text20, .text21 {
+    position: absolute;
+    left:-02%;
+    line-height: 23px;
+  }
+
+  .text8, .text9, .text12, .text16 {
+    position: absolute;
+    left:-2%;
+    line-height: 23px;
+  }
+
+  .text13, .text23, .text24 {
+    position: absolute;
+    left:-2%;
+    line-height: 23px;
+  }
+
+
+  .text10, .text11 {
+    position: absolute;
+    left:-2%;
+    line-height: 23px;
+  }
+
+  .text, .text2, .text3, .text18, .text19 {
+    position: absolute;
+    left:-2%;
+    line-height: 23px;
+  }
+
+  .text17 {
+    position: absolute;
+    left:-2.3%;
+    line-height: 23px;
+  }
+
+  .text22 {
+    position: absolute;
+    left:-2.3%;
+    line-height: 23px;
+  }
+
+}
+
