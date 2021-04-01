@@ -1,446 +1,679 @@
 
-
-/* blocks and texts for max-1366 */
-
-@media screen and (max-width: 1366px) {
-
-  
-  .block1 {
-    width: 23.8%;
-  }
-
-  .block2 {
-    width: 11.805%;
-
-  }
-
-  .block5 {
-    width: 12.4%;
-  }
-
-  .block6 {
-    width: 8.61%;
-  } 
-
-  .block15 {
-    width: 19.2%;
-  } 
-
-  .block16 {
-    width: 19.2%;
-  } 
-
-  .block21 {
-    width: 12.5%;
-  } 
-
-  
-  /* texts... */
-
-
-  /* .text4, .text5, .text14, .text15 {
-    position: absolute;
-    left:-1.3%;
-  }
-
-  .text6, .text7, .text20, .text21 {
-    position: absolute;
-    left:-0.9%;
-  }
-
-  .text8, .text9, .text12, .text16 {
-    position: absolute;
-    left:-0.2%;
-  }
-
-  .text13, .text23, .text24 {
-    position: absolute;
-    left:1%;
-  }
-
-
-  .text10, .text11 {
-    position: absolute;
-    left:1.2%;
-  }
-
-  .text, .text2, .text3, .text18, .text19 {
-    position: absolute;
-    left:-1.8%;
-  }
-
-  .text17 {
-    position: absolute;
-    left:-0.2%;
-  }
-
-  .text22 {
-    position: absolute;
-    left:-0.8%;
-  } */
-
-
-}
-
-/* texts for max-1280 */
-
-@media screen and (max-width: 1280px) {
-
-  p {
-    font-size: 16px;
-    left: 0.5%;
-  }
-
-  .text4, .text5, .text14, .text15 {
-    position: absolute;
-    left:-1%;
-    line-height: 21px;
-  }
-
-  .text6, .text7, .text20, .text21 {
-    position: absolute;
-    left:-0.5%;
-    line-height: 21px;
-  }
-
-  .text8, .text9, .text12, .text16 {
-    position: absolute;
-    left:-1.2%;
-    line-height: 21px;
-  }
-
-  .text13, .text23, .text24 {
-    position: absolute;
-    left:-1.5%;
-    line-height: 21px;
-  }
-
-
-  .text10, .text11 {
-    position: absolute;
-    left:-1.5%;
-    line-height: 21px;
-  }
-
-  .text, .text2, .text3, .text18, .text19 {
-    position: absolute;
-    left:-1.8%;
-    line-height: 21px;
-  }
-
-  .text17 {
-    position: absolute;
-    left:-1.8%;
-    line-height: 21px;
-  }
-
-  .text22 {
-    position: absolute;
-    left:-1.9%;
-    line-height: 21px;
-  }
-
-}
-
-@media (min-width: 476px) and (max-width: 705px) {
-  
-  .p1,.p2,.p3,.p5,.p9,.p12,{
-    width: -15%;
-  }
-
-  .p4,.p6,.p10,.p8,.p11,.p7{
-
-    width: 15%;
-    height: auto;
-  }
-
-  .p8{
-    display: none;
-  }
-
-  .p11{
-    width: 20%;
-  }
-
-  .p5{
-    width: 12%;
-  }
-
-  .p4{
-    width: 11%;
-  }
-
-  .p1{
-    width: 22%;
-  }
-
-  .p6{
-    width: 17%;
-  }
-
-  .p10{
-    width: 14%;
-  }
-
-  .p9{
-    width: 22.5%;
-  }
-
-}
-
-/* display none for basic content */
-
-@media screen and (max-width: 1024px) {
-
-  .images_container {
-    display: none;
-  }
-
-  .texts {
-    display: none;
-  }
-
-  .blocks {
-    display: none;
-  }
-
-}
-
 /* for ipad landscape */
-
-@media (min-width: 768px) and (max-width: 1024px) {
- .land {
-   display: block;
- }
-}
-
-@media (min-width: 1025px) and (max-width: 1980px) {
-  .land {
+@media (min-width: 769px) and (max-width: 1024px) {
+  
+  .iphone {
     display: none;
   }
- }
 
-@media (max-width: 769px) {
-
-  .land {
+  .portrait {
     display: none;
   }
-}
 
-/* for ipad portrait */
+  .alldrags {
+  display: block;
+  }
 
-
-@media (min-width: 475px) and (max-width: 768px) {
-
-  .ipad {
+  .landscape {
     display: block;
   }
-}
 
-@media (min-width: 769px) and (max-width: 1980px) {
-  .ipad {
+  .basic_container {
+    display: none;
+  } 
+
+  .button {
+    position: absolute;
+    max-width:43.3%;
+    height:auto;
+    margin-top:4.1%;
+    padding-left:35.2%;
+    z-index:2;
+  }
+  
+  .js_container3 {
+    position: absolute;
+  max-width:24%;
+  height:auto;
+  padding-left:12%;
+  margin-top:53.5%;
+  z-index: -1;
+  }
+
+  .js_container2 {
+    position: absolute;
+    max-width:45%;
+    height:auto;
+    padding-left:29%;
+    margin-top:6%;
+    z-index: 9;
+  }
+
+  .js_container {
+    position: absolute;
+    max-width:100%;
+    height:auto;
+    padding-left:13%;
+    margin-top:40%;
+    z-index: 4;
+  }
+
+  .star2 {
+    position: absolute;
+    max-width:17%;
+    height:auto;
+    padding-left:5.5%;
+    margin-top:43%;
+    z-index: -3;
+  
+  }
+
+  .shoka {
+    position: absolute;
+    max-width:17%;
+    height:auto;
+    padding-left:42%;
+    margin-top:61%;
+  
+  }
+
+  .shoky {
+    position: absolute;
+    max-width:18.5%;
+    height:auto;
+    padding-left:57%;
+    margin-top:6%;
+    z-index: 5;
+  }
+
+  .jest {
     display: none;
   }
+
+  .star3 {
+    position: absolute;
+    max-width:13%;
+    height:auto;
+    padding-left:84.5%;
+    margin-top:21.2%;
+    z-index: 0;
+  }
+
+
+  .oval {
+   position: absolute;
+   max-width:22.9%;
+   height:auto;
+   padding-left:77%;
+   margin-top:43.9%;
+  }
+
+  .shockdown {
+    position: absolute;
+    max-width:12.4%;
+    height:auto;
+    padding-left:83.9%;
+    margin-top:55.5%;
+    z-index: 4;
+  }
+  
+
+  .lemonsland {
+    position: absolute;
+    max-width:30%;
+    height:auto;
+    padding-left:58%;
+    margin-top:45%;
+    z-index: 4;
+  }
+
+  .shock {
+    position: absolute;
+    max-width:19%;
+    height:auto;
+    padding-left:41.4%;
+    margin-top:46.2%;
+    z-index: 6;
+  }
+
+  
+
+}
+ 
+@media (min-width: 1025px) and (max-width: 1980px) {
+   
+  .landscape {
+     display: none;
+   }
+
+   .portrait {
+    display: none;
+  }
+
+    .js_container{
+      display: block;
+  }
+
+  .iphone {
+    display: none;
+}
+
+
+}
+ 
+
+@media (max-width: 768px) {
+ 
+  .iphone {
+    display: none;
+  }
+
+  .portrait {
+    display: block;
+  }
+
+  .landscape {
+     display: none;
+  }
+
+  .basic_container {
+    display: none;
+  } 
+
+
+
+.pjs_container {
+  position: absolute;
+  max-width:115%;
+  height:auto;
+  padding-left:70%;
+  margin-top:58%;
+  z-index: 9;
+}
+
+.shockdown {
+  position: absolute;
+  max-width:12.4%;
+  height:auto;
+  padding-left:40%;
+  margin-top:96%;
+  z-index: 9;
+}
+
+.oval {
+  position: absolute;
+  max-width:22.9%;
+  height:auto;
+  padding-left:35%;
+  margin-top:85%;
+  z-index: 8;
  }
 
- @media (max-width: 476px) {
+ .explo {
+  position: absolute;
+  max-width:110%;
+  height:auto;
+  padding-left:15%;
+  margin-top:55%;
+  z-index: -1;
+ }
 
-  .ipad {
-    display: none;
-  }
+ .js_container3 {
+  position: absolute;
+max-width:25%;
+height:auto;
+padding-left:12%;
+margin-top:111%;
+z-index: -1;
+}
+
+.js_container2 {
+  position: absolute;
+  max-width:58%;
+  height:auto;
+  padding-left:25%;
+  margin-top:12%;
+  z-index: 8;
+}
+
+.js_container {
+  position: absolute;
+  max-width:100%;
+  height:auto;
+  padding-left:13%;
+  margin-top:90%;
+  z-index: 5;
+}
+
+.setka2 {
+  position: absolute;
+  max-width:100%;
+  height:auto;
+  z-index:0;
+  
 }
 
 
-/* for iphone */
+.star2 {
+  position: absolute;
+  max-width:20%;
+  height:auto;
+  padding-left:5.5%;
+  margin-top:98%;
+  z-index: -3;
+
+}
+
+.shoka {
+  display: none;
+
+}
+
+.js_container4 {
+  position: absolute;
+  max-width:37%;
+  height:auto;
+  padding-left:45%;
+  margin-top:38.5%;
+  z-index: 8;
+}
+
+.container5 { 
+  position: absolute;
+  max-width:35%;
+  height:auto;
+  padding-left:40%;
+  margin-top:48%;
+  z-index: 7;
+}
+
+
+.shock { 
+  position: absolute;
+  max-width:35%;
+  height:auto;
+  padding-left:38%;
+  margin-top:62%;
+  z-index:10;
+}
+
+
+.ovalblack { 
+  position: absolute;
+  max-width:30%;
+  height:auto;
+  padding-left:0%;
+  margin-top:34%;
+  z-index: 0;
+}
+ 
+.brush { 
+  position: absolute;
+  max-width:40%;
+  height:auto;
+  margin-left:-78%;
+  margin-top:43%;
+  z-index: 11;
+}
+
+.star3 {
+  position: absolute;
+  max-width:15%;
+  height:auto;
+  padding-left:11%;
+  margin-top:58%;
+  z-index: 0;
+}
+
+.ovalyellow {
+  position: absolute;
+  max-width:15%;
+  height:auto;
+  padding-left:6%;
+  margin-top:44%;
+  z-index: 0;
+}
+
+.words {
+  position: absolute;
+  max-width:18%;
+  height:auto;
+  padding-left:11%;
+  margin-top:35%;
+  z-index: 0;
+}
+
+.words2 {
+  position: absolute;
+  max-width:24%;
+  height:auto;
+  padding-left:63%;
+  margin-top:84%;
+  z-index: 0;
+}
+
+
+.button {
+  position: absolute;
+  max-width:54%;
+  height:auto;
+  margin-top:4.4%;
+  padding-left:37.3%;
+  z-index:-1;
+}
+
+.kapusta {
+  position: absolute;
+  max-width:54%;
+  height:auto;
+  margin-top:87%;
+  padding-left:62%;
+  z-index:8;
+}
+
+
+.shoky {
+  position: absolute;
+  max-width:25%;
+  height:auto;
+  padding-left:63%;
+  margin-top:6%;
+  z-index: 5;
+}
+
+
+.kill,.jest {
+  display: none;
+}
+
+.kill2 {
+  position: absolute;
+  max-width:55%;
+  height:auto;
+  padding-left:39%;
+  margin-top:111%;
+  z-index: 5;
+}
+
+.grey2 {
+  position: absolute;
+  max-width:55%;
+  height:auto;
+  padding-left:63%;
+  margin-top:111%;
+  z-index: -1;
+}
+
+.jest2 {
+  position: absolute;
+  max-width:55%;
+  height:auto;
+  padding-left:63%;
+  margin-top:122%;
+  z-index: 9;
+}
+
+
+
+
+   
+}
+
 
 @media (min-width: 320px) and (max-width: 476px) {
+   
+  .landscape {
+    display: none;
+  }
+
+  .portrait {
+    display: none;
+  }
+
+  .things{
+    display: none;
+  }
 
   .iphone {
     display: block;
   }
-}
 
-@media (min-width: 477px) and (max-width: 1980px) {
+  /* .alldrags{
+    display: none;
+  } */
+  
+  
 
-  .iphone {
+  .resizable{
     display: none;
   }
-}
 
-/* for 1680 */
-
-@media screen and (min-width: 1679px) {
-
-  .all {
-    transform: scale(1.17);
-    margin-left: 7%;
-    margin-right: 7%;
+  .container7{
+    display: none;
   }
   
-  /* .texts {
-   padding-right:40%;
+
+  .button {
+  position: absolute;
+  max-width:84.5%;
+  height:auto;
+  padding-left:5.8%;
+  margin-top:12.3%;
+  z-index: -1; 
   }
 
-  .text10, .text11 {
-    margin-left: 89.5%;
+  .kapusta {
+    position: absolute;
+    max-width:38.3%;
+    height:auto;
+    padding-left:5.8%;
+    margin-top:177%;
+    z-index: 3; 
+    }
+
+    .brush {
+    position: absolute;
+    max-width:30%;
+    height:auto;
+    padding-left:5.8%;
+    margin-top:10%;
+    z-index: 6; 
+
+    }
+
+    .js_container3 {
+    position: absolute;
+    max-width:46%;
+    height:auto;
+    padding-left:46%;
+    margin-top:136%;
+    z-index: -1;
+    }
+
+    .shoky {
+      position: absolute;
+      max-width:43%;
+      height:auto;
+      padding-left:47%;
+      margin-top:104%;
+      z-index: 8;
+      }
+
+
+
+    .ijs_container {
+      position: absolute;
+      max-width:65%;
+      height:auto;
+      padding-left:0%;
+      margin-top:82%;
+      z-index: 5;
+      }
+
+  .js_container2 {
+    display: none;
   }
 
-  .text23, .text24, .text13, {
+  .star3,.ovalblack {
+    display: none;
+  }
+
+
+
+
+  .shockdown {
+    display: none;
+  }
+  
+
+  .setka3 {
+    position: absolute;
+    max-width:100%;
+    height:auto;
+    z-index: -1; 
     
   }
 
-  .text17 {
-    margin-left: 68.7%;
-  } */
-}
-
-/* @media screen and (min-width: 1441px) {
-  
-  p {
-    font-size: 18px;
-    left: 0.5%;
-    line-height: 30px;
-  }
-  
-  .block1 {
-    width: 23.8%;
-  }
-
-  .block2 {
-    width: 11.805%;
-
-  }
-
-  .block5 {
-    width: 12.4%;
-  }
-
-  .block6 {
-    width: 8.61%;
-  } 
-
-  .block15 {
-    width: 19.2%;
-  } 
-
-  .block16 {
-    width: 19.2%;
-  } 
-
-  .block21 {
-    width: 12.5%;
-  } .text4, .text5, .text14, .text15 {
+  .shock {
     position: absolute;
-    left:-1.3%;
-  }
-
-
-
-  .text6, .text7, .text20, .text21 {
-    position: absolute;
-    left:-1.5%;
-    line-height: 23px;
-  }
-
-  .text8, .text9, .text12, .text16 {
-    position: absolute;
-    left:-0.6%;
-    line-height: 23px;
-
-  }
-
-  .text13, .text23, .text24 {
-    position: absolute;
-    left:0.5%;
-    line-height: 23px;
-  }
-
-  .text10, .text11 {
-    position: absolute;
-    right:10%;
-    line-height: 23px;
-  }
-
-  .text, .text2, .text3, .text18, .text19 {
-    position: absolute;
-    left:-1.8%;
-    line-height: 23px;
-  }
-
-  .text17 {
-    position: absolute;
-    left:-0.7%;
-    line-height: 23px;
-  }
-
-  .text22 {
-    position: absolute;
-    left:-1%;
-    line-height: 23px;
-  }
-
-
-
-  
-} */
-
-
-
-@media (min-width: 1441px) and (max-width: 1685px) {
-
-  p {
-    font-size: 18px;
+    max-width:60%;
+    height:auto;
+    padding-left:8%;
+    margin-top:14%;
+    
+    z-index: 6; 
     
   }
 
-  .text4, .text5, .text14, .text15 {
+  .js_container4 {
     position: absolute;
-    left:-2%;
-    line-height: 23px;
+    max-width:65%;
+    height:auto;
+    padding-left:8%;
+    margin-top:72%;
+    
+    z-index: 0; 
+    
   }
 
-  .text6, .text7, .text20, .text21 {
+  .container11 {
     position: absolute;
-    left:-02%;
-    line-height: 23px;
-  }
-
-  .text8, .text9, .text12, .text16 {
-    position: absolute;
-    left:-2%;
-    line-height: 23px;
-  }
-
-  .text13, .text23, .text24 {
-    position: absolute;
-    left:-2%;
-    line-height: 23px;
+    max-width:50%;
+    height:auto;
+    padding-left:8%;
+    margin-top:52%;
+    
+    z-index: 0; 
+    
   }
 
 
-  .text10, .text11 {
-    position: absolute;
-    left:-2%;
-    line-height: 23px;
+  .container5 {
+    display: none;
+    
+    
   }
 
-  .text, .text2, .text3, .text18, .text19 {
-    position: absolute;
-    left:-2%;
-    line-height: 23px;
+  .container6 {
+    display: none;
   }
 
-  .text17 {
-    position: absolute;
-    left:-2.3%;
-    line-height: 23px;
+
+  .js_container {
+    display: block;
+    
   }
 
-  .text22 {
+
+  .container10 {
     position: absolute;
-    left:-2.3%;
-    line-height: 23px;
+    max-width:51%;
+    height:auto;
+    padding-left:39%;
+    margin-top:85%;
+    
+    z-index: 0; 
+    
   }
+
+  .ovalyel {
+    position: absolute;
+    max-width:48%;
+    height:auto;
+    padding-left:20%;
+    margin-top:214%;
+    
+    z-index: 3; 
+    
+  }
+
+
+  .istroke {
+    position: absolute;
+    max-width:55%;
+    height:auto;
+    padding-left:41%;
+    margin-top:195%;
+    
+    z-index: 0; 
+    
+  }
+
+
+  .iegg {
+    position: absolute;
+    max-width:42%;
+    height:auto;
+    padding-left:56%;
+    margin-top:195%;
+    
+    z-index: 3; 
+    
+  }
+
+  .ibrush {
+    position: absolute;
+    max-width:68%;
+    height:auto;
+    padding-left:32%;
+    margin-top:148%;
+    
+    z-index: 1; 
+  }
+
+    .istar {
+      position: absolute;
+      max-width:45%;
+      height:auto;
+      padding-left:29%;
+      margin-top:173%;
+      
+      z-index: 0; 
+    }
+
+
+
+
 
 }
+  
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+  
+
+
+
 
